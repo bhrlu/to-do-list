@@ -24,8 +24,6 @@ const App = () => {
         newArray[objectIndex-1]=temp;
         setInputItems([...newArray]);
       }
-    // let sosan = inputItems.find(item =>item.id ===id).value;
-    // let objectIndex2 = newArray.findIndex(obj=>obj.id ===id-1);
     }
     const handleAddToBottom = (event)=>{
       let id=+event.target.getAttribute("id");
